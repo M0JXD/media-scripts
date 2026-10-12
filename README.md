@@ -45,7 +45,7 @@ launch the script from a terminal providing the start and end times for your loo
 
 `python audacity-multitake.py 02:05 04:32 2.0 Guitar`
 
-> [!IM]
+> [!IMPORTANT]
 > `python` might be `py` on Windows or `python3` on some Linux distros.
 
 The last two arguments are optional.
