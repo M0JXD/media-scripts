@@ -17,7 +17,7 @@ Basically a script version of what [Constrict](https://apps.gnome.org/en-GB/Cons
 Converts a Video to GIF in good quality.
 From <https://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html>.
 
-> [!NOTE]
+> [!WARNING]
 > No LICENSE but developer encouraged its use, it's here so I don't lose it! I will take down if the developer asks.
 
 # Audacity Slow Down Macro
@@ -28,7 +28,7 @@ Slows down 60% playback, retaining pitch. I use this with the Palette to apply t
 
 A small and simple helper utility to implement the one killer feature I'm missing in Audacity. Enables hands free loop recording for multiple takes.
 
-> [!NOTE]
+> [!TIP]
 > To get the best use of this you should set your [latency compensation](https://support.audacityteam.org/troubleshooting/solving-recording-problems/latency-compensation).
 
 > [!NOTE]
@@ -45,7 +45,7 @@ launch the script from a terminal providing the start and end times for your loo
 
 `python audacity-multitake.py 02:05 04:32 2.0 Guitar`
 
-> [!NOTE]
+> [!IM]
 > `python` might be `py` on Windows or `python3` on some Linux distros.
 
 The last two arguments are optional.
