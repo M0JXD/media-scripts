@@ -36,23 +36,19 @@ A small and simple helper utility to implement the one killer feature I'm missin
 
 ## Usage
 
-Make sure [Python](https://www.python.org/downloads/) is installed and enable
-[mod-script-pipe](https://manual.audacityteam.org/man/scripting.html#Enable_mod-script-pipe)
-in Audacity.
+The script is wrote in [Python](https://www.python.org/downloads/).
+Before starting, ensure [mod-script-pipe](https://manual.audacityteam.org/man/scripting.html#Enable_mod-script-pipe) is enabled in Audacity.
 
 After that it's pretty dang simple! While Audacity is already running,
-launch the script from a terminal providing the start and end times for your loop region:
+launch the script providing the start and end times for your loop region:
 
-`python audacity-multitake.py 02:05 04:32 2.0 Guitar`
+`./audacity_multitake.py 02:05 04:32 2.0 Guitar`
 
-> [!IMPORTANT]
-> `python` might be `py` on Windows or `python3` on some Linux distros.
-
-The last two arguments are optional.
-In the example, `2.0` is the new gain to apply and `Guitar` is the prefix name for the tracks.
-If you don't want to apply a new gain but need a prefix pass `0` as the third argument.
+The last two arguments are optional, they are the gain and prefix names for the tracks recorded.
+If you don't want to apply a new gain level but need a prefix, pass `0` as the third argument.
 
 Audacity will start recording new tracks (using the channel setting from `Recording Channels`),
 and after each one is done, the track is named and muted before starting the next.
 
-When you're done, hit `Ctrl-C` on the script and it will stop. You may need to cancel the current recording from Audacity.
+When you're done, hit `Ctrl-C` on the script and it will stop. 
+You may need to cancel the current recording from within Audacity.
