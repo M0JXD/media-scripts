@@ -47,8 +47,8 @@ launch the script providing the start and end times for your loop region:
 The last two arguments are optional, they are the gain and prefix names for the tracks recorded.
 If you don't want to apply a new gain level but need a prefix, pass `0` as the third argument.
 
-Audacity will start recording new tracks (using the channel setting from `Recording Channels`),
+Audacity will start recording new tracks (using the channel setting from *Recording Channels*),
 and after each one is done, the track is named and muted before starting the next.
 
-When you're done, hit `Ctrl-C` on the script and it will stop. 
+When you're done, hit *Ctrl-C* on the script and it will stop.
 You may need to cancel the current recording from within Audacity.
