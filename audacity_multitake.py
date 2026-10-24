@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# GPLv3 LICENSE
+
 """ Audacity MultiTake Helper
 
 This script includes what it needs from pipeclient to keep it to a single file.

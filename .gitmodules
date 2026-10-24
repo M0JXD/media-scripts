@@ -1,0 +1,3 @@
+[submodule "mpv-lossless-cut"]
+	path = mpv-lossless-cut
+	url = https://github.com/f0e/mpv-lossless-cut.git
