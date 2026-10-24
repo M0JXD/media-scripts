@@ -13,3 +13,4 @@ install:
 
 uninstall:
 	rm ~/.local/bin/compress_10mb ~/.local/bin/gifmaker ~/.local/bin/multitake
+	rm ~/.config/mpv/scripts/mpv-lossless-cut.*
